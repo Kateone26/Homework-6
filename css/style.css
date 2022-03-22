@@ -1,0 +1,120 @@
+.image{
+	height: 400px;
+}
+.background{
+	width:100%;
+	height: 100%;
+}
+
+.back{
+	position: relative;
+}
+
+.deidara-img{
+	position: absolute;
+	animation: deidara-img 5s linear infinite 0.3s;
+	top:10px;
+	left: 100px;
+	height: 250px;
+}
+
+.child-rasengan{
+	position: absolute;
+	animation: child-rasengan 2s linear infinite 0.3s;
+	top:500px;
+	left:80px;
+}
+
+.child-chidori{
+	position: absolute;
+	animation: child-chidori 2s linear infinite 0.3s ;
+	top:150px;
+	right:80px;
+	z-index: 5;
+}
+
+@keyframes child-chidori{
+	0%{
+	top:150px;
+	right:80px;
+	}
+	20%{
+	top:180px;
+	right:194px;
+	}
+	40%{
+	top:210px;
+	right:308px;
+	}
+	60%{
+	top:240px;
+	right:422px;
+	}
+	80%{
+	top:270px;
+	right:536px;
+	}
+	100%{
+	top:300px;
+	right:650px;
+	}
+}
+
+@keyframes child-rasengan{
+	0%{
+	top:500px;
+	left:80px;
+	}
+	25%{
+	top:450px;
+	left:160px;
+	}
+	50%{
+	top:430px;
+	left:250px;
+	}
+	75%{
+	top:400px;
+	left:350px;
+
+	}
+	100%{
+	top:380px;
+	left:450px;
+	}
+	
+}
+
+
+@keyframes deidara-img{
+	0%{
+	top:10px;
+	left:100px;
+	}
+	25%{
+	top:10px;
+	left:325px;
+	}
+	50%{
+	top:10px;
+	left:550px;
+	}
+	75%{
+	top:10px;
+	left:775px;
+
+	}
+	100%{
+	top:10px;
+	left:1000px;
+	}
+}
+
+
+.chidori-img{
+	width:220px; 
+	/*height:500px;*/
+}
+.rasengan-img{
+	width:180px;
+}

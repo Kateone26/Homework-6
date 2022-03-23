@@ -10,24 +10,27 @@
 	position: relative;
 }
 
+.deidara{
+	height: 250px;
+}
+
 .deidara-img{
 	position: absolute;
 	animation: deidara-img 5s linear infinite 0.3s;
 	top:10px;
 	left: 100px;
-	height: 250px;
 }
 
 .child-rasengan{
 	position: absolute;
-	animation: child-rasengan 2s linear infinite 0.3s;
+	animation: child-rasengan 4s linear infinite 0.3s;
 	top:500px;
 	left:80px;
 }
 
 .child-chidori{
 	position: absolute;
-	animation: child-chidori 2s linear infinite 0.3s ;
+	animation: child-chidori 4s linear infinite 0.3s ;
 	top:150px;
 	right:80px;
 	z-index: 5;
@@ -117,4 +120,28 @@
 }
 .rasengan-img{
 	width:180px;
+}
+
+
+.clash-img{
+	width: 270px;
+}
+
+.clash{
+	position: absolute;
+	top:250px;
+	left:510px;
+	z-index: 6;
+	visibility: hidden;
+	animation: clash 4s linear infinite 0.3s ;
+	
+}
+
+@keyframes clash{
+	95%{
+	visibility: hidden;
+	}
+	100%{
+	visibility: visible;
+	}
 }
